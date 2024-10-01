@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white"
+    android:gravity="left"
+    tools:context=".fragment.actifitas">
+
+    <TextView
+        android:id="@+id/actifitas_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="16dp"
+        android:text="Tidak ada Aktifitas Tebaru"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/actifitas_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tidak menampilkan aktivitas apapun saat ini dikarenakan tidak ada aktifitas terbaru."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/button_detail_actifitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh"
+        android:textColor="@android:color/black"
+        android:backgroundTint="#3370ff"
+        android:padding="20dp" />
+
+</LinearLayout>

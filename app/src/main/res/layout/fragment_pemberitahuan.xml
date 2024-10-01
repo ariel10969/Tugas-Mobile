@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ffffff"
+    tools:context=".fragment.PemberitahuanFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/bell_icon_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_bell"
+        android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Seseorang menyukai reel anda."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/bell_icon_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_bell"
+            android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Youtube"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Video terbaru dari Gawx Art."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/bell_icon_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_bell"
+            android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Merchpars memposting ulang postingan Anda."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp">
+
+
+        <ImageView
+            android:id="@+id/bell_icon_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_bell"
+            android:layout_marginEnd="8dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WhatsApp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:text="Ariel : Tugas web belum selesai."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
+
+</LinearLayout>
